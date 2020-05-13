@@ -6,8 +6,12 @@ public class ScannerInteractiveCalc
     void init()
     {
         Scanner sc=new Scanner(System.in);
+        System.out.println("Enter first number");
         n1= sc.nextDouble();
+        System.out.println("Enter second number");
         n2= sc.nextDouble();
+        System.out.println("Enter a character");
+        c=sc.next().charAt(0);
     }
     void calc()
     {

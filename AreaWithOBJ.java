@@ -1,6 +1,4 @@
-
-
-public class AreaWithOBJ
+ class AreaWithOBJ
 {
     int length, breadth, area;
     void init()
@@ -14,7 +12,7 @@ public class AreaWithOBJ
     }
     void display()
     {
-        System.out.println(area);
+     System.out.println(area);
     }
     public static void main()
     {

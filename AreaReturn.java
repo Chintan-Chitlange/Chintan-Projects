@@ -1,5 +1,3 @@
-
-
 public class AreaReturn
 {
     int length, breadth, area;
@@ -12,7 +10,7 @@ public class AreaReturn
     {
      area = length*breadth; 
      return area;
-    }
+    }   
     public static void main()
     {
      AreaReturn obj=new AreaReturn();
