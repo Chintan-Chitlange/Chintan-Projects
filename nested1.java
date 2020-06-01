@@ -1,5 +1,12 @@
-public class nested1
+ public class nested1
 {
+    /**This is a program to print.
+       11111
+       2222
+       333
+       44
+       5
+    */
     public static void main()
     {
         int x1=1;
