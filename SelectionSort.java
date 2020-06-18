@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class SelectionSort
 {
-    static void sort(int arr[])
+    static void sort_selection(int arr[])
     {
         int n=arr.length;
         for(int i=0;i<n-1;i++)
@@ -15,6 +15,10 @@ public class SelectionSort
                     minIdx=j;
                 }
             }
+            // Swapping elements
+            int temp=arr[minIdx];
+            arr[minIdx]=arr[i];
+            arr[i]=temp;
         }
     }
     public static void main()
@@ -25,7 +29,7 @@ public class SelectionSort
         {
             arr[i]=sc.nextInt();
         }
-        SelectionSort.sort(arr);
+        SelectionSort.sort_selection(arr);
         for(int i=0;i<arr.length;i++)
         {
             System.out.println(arr[i]);
